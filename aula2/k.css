@@ -1,13 +1,53 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+/*CABEÇA*/
+
+header.cabeca{
+    background: linear-gradient(130deg, #ff0000, #ffa0a0, #ff0000);/*degrade*/
+    background-color: #ffffffce;
+    display: flex;
+    height: 50px;/*altura*/
+    opacity: 70%;
+    box-shadow: 0 3px 15px 3px;
+}
+
+.botao1{
+    margin: 13px;
+    display: flex;
+    justify-content: start;
+    cursor: pointer;
+}
+
+menu{
+    display: flex;
+    justify-content: start;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 16px; 
+}
+
+logo{
+    display: flex;
 }
 
 .container-pai{
     display: flex;
     flex-direction: column;
     height: 100vh;
+}
+
+.pesquisa{
+    opacity: 50%;
+    border-radius: 15px;
+    margin: 13px;
+}
+
+/*FIM CABEÇA*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(75, 75, 75);
 }
 
 .tipo{
@@ -26,25 +66,51 @@ body{
 }
 
 .container-1{
-    background-color: #8a2be2;
-    width: 50%;
-    height: 50%;
+    background-color: #1a6b53;
+    width: 50%;/*largura*/
+    height: 10%;
+    margin: 5px;
+    border-radius: 10px;
+    opacity: 70%;
+    box-shadow: 0px 3px 15px 3px black;
 }
 
 .container-2{
-    background-color: #ff0000;
+    background-color: #ffffff;
     width: 50%;
     height: 50%;
+    margin: 5px;
+    border-radius: 100%;
+    opacity: 70%;
+    box-shadow: 0px 3px 15px 3px black;
+    animation-name: animacao1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition: 1s;
+}
+
+.container-2:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 
 .container-3{
-    flex: 1;
-    background-color: #0000ff;
+    background-color: #1a6b53;
     align-items: center;
     justify-content: center;
     color: #f0f8ff;
     font-size: 24px;
     font-weight: bold;
-    width: 100%;
-    height: 100%;
+    height: 10%;
+    opacity: 70%;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+@keyframes animacao1{
+    0% {background-color: #ff0000;}
+    25% {background-color: #880000;}
+    50% {background-color: #000000;}
+    75% {background-color: #880000;}
+    100% {background-color: #ff0000;}
 }
