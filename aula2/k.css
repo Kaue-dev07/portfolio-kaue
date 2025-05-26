@@ -7,6 +7,7 @@ header.cabeca{
     height: 50px;/*altura*/
     opacity: 70%;
     box-shadow: 0 3px 15px 3px;
+    justify-content: space-between;
 }
 
 .botao1{
@@ -33,6 +34,9 @@ header.cabeca{
 
 logo{
     display: flex;  
+    width: 10px;
+    height: 100px;
+    margin-top: -24px;
 }   
 
 .container-pai{
@@ -42,9 +46,10 @@ logo{
 }
 
 .pesquisa{
-    opacity: 50%;
+    opacity: 80%;
     border-radius: 15px;
     margin: 13px;
+    background-color: rgb(255, 255, 255);
 }
 
 /*FIM CABEÇA*/
@@ -74,19 +79,26 @@ body{
 .container-1{
     background-color: #f52e2e;
     width: 50%;/*largura*/
-    height: 10%;
+    height: 300px;
     margin: 5px;
-    border-radius: 10px;
+    border-radius: 20px;
     opacity: 70%;
     box-shadow: 0px 3px 15px 3px black;
+    transition: 1s;
+    margin: 20px;
+}
+
+.container-1:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 
 .container-2{
     background-color: #ffffff;
-    width: 10px;
-    height: 100%;
-    margin: 50px;
-    border-radius: 100%;
+    width: 50%;
+    height: 300px;
+    margin: 20px;
+    border-radius: 20px;
     opacity: 70%;
     box-shadow: 0px 3px 15px 3px black;
     animation-name: animacao1;
@@ -107,10 +119,17 @@ body{
     color: #f0f8ff;
     font-size: 24px;
     font-weight: bold;
-    height: 200PX;
+    height: 50%;
     opacity: 70%;
-    margin: 5px;
-    border-radius: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px 6px #000000;
+    transition: 1s;
+}
+
+.container-3:hover{
+    transform: scale(1.03);
+    transition: 0.5s;
 }
 
 @keyframes animacao1{
