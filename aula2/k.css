@@ -10,24 +10,39 @@ header.cabeca{
 }
 
 .botao1{
-    margin: 13px;
     display: flex;
-    justify-content: start;
+    flex-direction: column;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    background: none;
+    border: none;
+    padding: 0;
     cursor: pointer;
+}
+
+.botao1 span{
+    width: 30px;
+    height: 2px;
+    background: #000000;
+    margin: 4px;
+    border-radius: 10px;
+    display: block;
+    transition: 0.3;
 }
 
 menu{
     display: flex;
     justify-content: start;
-    color: black;
+    color: #000000;
     font-size: 17px;
     font-weight: bold;
     margin: 16px; 
 }
 
 logo{
-    display: flex;
-}
+    display: flex;  
+}   
 
 .container-pai{
     display: flex;
@@ -101,7 +116,7 @@ body{
     color: #f0f8ff;
     font-size: 24px;
     font-weight: bold;
-    height: 10%;
+    height: 200PX;
     opacity: 70%;
     margin: 5px;
     border-radius: 10px;
