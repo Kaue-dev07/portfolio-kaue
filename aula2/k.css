@@ -58,7 +58,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-color: #eebcbc;
+    background-color: #ffffff;
 }
 
 .tipo{
@@ -130,6 +130,18 @@ body{
 .container-3:hover{
     transform: scale(1.03);
     transition: 0.5s;
+}
+
+.p1{
+    margin: 40px;
+    color: #ffffff;
+    font-size: 19px;
+}
+
+.p2{
+    margin: 40px;
+    color: #ffffff;
+    font-size: 19px;
 }
 
 @keyframes animacao1{
