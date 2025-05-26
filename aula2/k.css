@@ -21,23 +21,14 @@ header.cabeca{
     cursor: pointer;
 }
 
-.botao1 span{
-    width: 30px;
+.botao1 span{ /*span serviu para fazer o botão de haburguer*/
+    width: 20px;
     height: 2px;
     background: #000000;
     margin: 4px;
     border-radius: 10px;
     display: block;
     transition: 0.3;
-}
-
-menu{
-    display: flex;
-    justify-content: start;
-    color: #000000;
-    font-size: 17px;
-    font-weight: bold;
-    margin: 16px; 
 }
 
 logo{
@@ -62,7 +53,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-color: rgb(75, 75, 75);
+    background-color: #eebcbc;
 }
 
 .tipo{
@@ -81,7 +72,7 @@ body{
 }
 
 .container-1{
-    background-color: #1a6b53;
+    background-color: #f52e2e;
     width: 50%;/*largura*/
     height: 10%;
     margin: 5px;
@@ -92,9 +83,9 @@ body{
 
 .container-2{
     background-color: #ffffff;
-    width: 50%;
-    height: 50%;
-    margin: 5px;
+    width: 10px;
+    height: 100%;
+    margin: 50px;
     border-radius: 100%;
     opacity: 70%;
     box-shadow: 0px 3px 15px 3px black;
@@ -110,7 +101,7 @@ body{
 }
 
 .container-3{
-    background-color: #1a6b53;
+    background-color: #ff2020;
     align-items: center;
     justify-content: center;
     color: #f0f8ff;
