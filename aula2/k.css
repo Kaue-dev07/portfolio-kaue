@@ -1,43 +1,13 @@
 /*CABEÇA*/
 
 header.cabeca{
-    background: linear-gradient(130deg, #ff0000, #ffa0a0, #ff0000);/*degrade*/
     background-color: #ffffffce;
     display: flex;
-    height: 50px;/*altura*/
-    opacity: 70%;
+    height: 60px;/*altura*/
+    opacity: 100%;
     box-shadow: 0 3px 15px 3px;
     justify-content: space-between;
 }
-
-.botao1{
-    display: flex;
-    flex-direction: column;
-    width: 40px;
-    height: 40px;
-    margin: 10px;
-    background: none;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-}
-
-.botao1 span{ /*span serviu para fazer o botão de haburguer*/
-    width: 20px;
-    height: 2px;
-    background: #000000;
-    margin: 4px;
-    border-radius: 10px;
-    display: block;
-    transition: 0.3;
-}
-
-logo{
-    display: flex;  
-    width: 10px;
-    height: 100px;
-    margin-top: -24px;
-}   
 
 .container-pai{
     display: flex;
@@ -45,11 +15,15 @@ logo{
     height: 100vh;
 }
 
-.pesquisa{
-    opacity: 80%;
-    border-radius: 15px;
-    margin: 13px;
-    background-color: rgb(255, 255, 255);
+.logo{
+    display: flex;
+    align-items: center;
+    color: #000000;
+    font-size: 30px;
+    margin-left: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-style: normal;
 }
 
 /*FIM CABEÇA*/
@@ -62,10 +36,7 @@ body{
 }
 
 body{
-    background-image: url(rosas-campo1.jpg);
-    background-repeat: no-repeat;         /* Evita que a imagem se repita */
-    background-size: cover;               /* Faz a imagem cobrir toda a área do elemento */
-    background-position: center center;   /* Centraliza a imagem */
+    background-color: #315252;
 }
 
 .tipo{
