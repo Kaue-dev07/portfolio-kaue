@@ -35,7 +35,7 @@ a:hover{
 
 
 .logo{
-    background: url(nuvens.png)center;
+    background: url(nuvens-brancas.png)center;
     background-size: cover;
     background-clip: text;
     display: flex;
@@ -103,7 +103,7 @@ nome{
     margin: 20px;
     margin-top: 90px;
     border-radius: 20px;
-    background-image: url(kaue.JPG);
+    background-image: url(foto-kaue2.JPG);
     background-repeat: no-repeat;
     background-size: 300px;
     background-position: center center;
