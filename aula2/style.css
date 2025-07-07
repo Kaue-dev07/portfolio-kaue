@@ -10,23 +10,66 @@
     justify-content: space-between;
 }
 
-.menu{
+nav{
     display: flex;
     align-items: center;
-    margin-right: 30px;
-    margin-top: 28px;
+    margin-right: 40px;
     font-weight: 800;
     font-size: 17px;
-    list-style: none;
 }
 
 a{
     font-family: "Montserrat", sans-serif;
     color: white;
     text-decoration: none;
-    margin: 0 20px; /* Adiciona espaçamento entre os links, espaço externo*/
     transition: 0.5s;
+    margin: 15px;
 }
+
+.animation{
+    position: absolute;
+    height: 3px;
+    top: 60px;
+    margin-left: 950px;
+    z-index: 0;
+    background-color: #f7f7f7;
+    transition: all 0.5s ease 0s;
+}
+
+a:nth-child(1){
+    width: 108px;
+}
+nav .start-home,a:nth-child(1):hover~.animation{
+    width: 90px;
+    left: 0;
+}
+
+a:nth-child(2){
+    width: 100px;
+}
+nav .start-about,a:nth-child(2):hover~.animation{
+    width: 100px;
+    left: 138px;
+}
+
+
+a:nth-child(3){
+    width: 100px;
+}
+nav .start-projects,a:nth-child(3):hover~.animation{
+    width: 120px;
+    left: 270px;
+}
+
+
+a:nth-child(4){
+    width: 100px;
+}
+nav .start-contact,a:nth-child(4):hover~.animation{
+    width: 100px;
+    left: 310px;
+}
+
 
 a:hover{
     color: #ffffff;
@@ -42,7 +85,7 @@ a:hover{
     align-items: center;
     color: transparent;
     font-size: 40px;
-    margin-left: 40px;
+    margin-left: 50px;
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
     font-style: normal;
@@ -88,7 +131,7 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 
-nome{
+.nome{
     color: #ffffff;
     font-size: 75px;
     font-weight: 900;
