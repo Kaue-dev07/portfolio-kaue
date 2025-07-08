@@ -13,9 +13,9 @@
 nav{
     display: flex;
     align-items: center;
-    margin-right: 40px;
     font-weight: 800;
     font-size: 17px;
+    margin-right: 40px;
 }
 
 a{
@@ -23,7 +23,10 @@ a{
     color: white;
     text-decoration: none;
     transition: 0.5s;
-    margin: 15px;
+}
+
+.bosta {
+   margin: 20px;
 }
 
 .animation{
@@ -36,40 +39,39 @@ a{
     transition: all 0.5s ease 0s;
 }
 
-a:nth-child(1){
+a:nth-of-type(1){
     width: 108px;
 }
-nav .start-home,a:nth-child(1):hover~.animation{
-    width: 90px;
-    left: 0;
+nav .start-home,a:nth-of-type(1):hover~.animation{
+    width: 86px;
+    left: 26px;
 }
 
-a:nth-child(2){
+a:nth-of-type(2){
     width: 100px;
 }
-nav .start-about,a:nth-child(2):hover~.animation{
-    width: 100px;
-    left: 138px;
+nav .start-about,a:nth-of-type(2):hover~.animation{
+    width: 95px;
+    left: 134px;
 }
 
 
-a:nth-child(3){
+a:nth-of-type(3){
     width: 100px;
 }
-nav .start-projects,a:nth-child(3):hover~.animation{
+nav .start-projects,a:nth-of-type(3):hover~.animation{
     width: 120px;
-    left: 270px;
+    left: 257px;
 }
 
 
-a:nth-child(4){
+a:nth-of-type(4){
     width: 100px;
 }
-nav .start-contact,a:nth-child(4):hover~.animation{
-    width: 100px;
-    left: 310px;
+nav .start-contact,a:nth-of-type(4):hover~.animation{
+    width: 108px;
+    left: 399px;
 }
-
 
 a:hover{
     color: #ffffff;
@@ -85,7 +87,7 @@ a:hover{
     align-items: center;
     color: transparent;
     font-size: 40px;
-    margin-left: 50px;
+    margin-left: 60px;
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
     font-style: normal;
@@ -175,55 +177,37 @@ hr{
     margin-bottom: 40px;
 }
 
-.sobre{
+.containerAbout{
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #171825;
     margin-top: 40px;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding-left: 70px;
-    padding-right: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 40px;
     border-radius: 40px;
     box-shadow: #000000 0px 0px 20px 0px;
     color: white;
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     transition: 0.5s;
+    
 }
 
-.sobre:hover{
+.containerAbout:hover{
     transition: 0.5s;
     transform: scale(1.02);
     box-shadow: #797979 0px 0px 20px 0px;
 }
 
-.botoes{
-    color: #ffffff;
-}
-
-.habilidades, .estudos{
-    background-color: transparent;
-    color: #ffffff;
-    border-radius: 40px;
-    cursor: pointer;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    border: 2px solid #ffffff;
-    margin-right: 25px;
-}
-
 .titulos{
-    color: #ffffff;
-    font-size: 27px;
+    font-size: 40px;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
 }
+
 /* footer{
     background-color: #000000;
     align-items: center;
