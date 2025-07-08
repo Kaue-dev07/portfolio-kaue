@@ -1,79 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>aula2</title>
+    <title>portfolio kauê rosa</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 </head>
+
 <body>
 
-<header class="cabeca">
-    <h1 class="logo">KAMU</h1>
+    <header class="cabeca">
+        <h1 class="logo">KAMU</h1>
 
-    <nav>
-        <a href="#casa">HOME</a>
-        <a href="#sobre">ABOUT</a>
-        <a href="#projetos" class="bosta">PROJECTS</a>
-        <a href="#contato" class="bosta">CONTACT</a>
-        <div class="animation start-home"></div>
-    </nav>
-</header>
+        <nav>
+            <a href="#casa">HOME</a>
+            <a href="#sobre">ABOUT</a>
+            <a href="#projetos" class="bosta">PROJECTS</a>
+            <a href="#contato" class="bosta">CONTACT</a>
+            <div class="animation start-home"></div>
+        </nav>
+    </header>
 
     <div class="container-pai">
-     <div class="tipo">
-        <div class="apresentacao" id="casa">
-            <br><br>
-            <aos   
-                data-aos-delay="500"   
-                data-aos="fade-up"
-                data-aos-duration="1000" 
-                data-aos-easing="ease-in-out">hello world, my name is
-            </aos>
-            <br>
-            <nome class="nome"
-                data-aos-delay="1500"        
-                data-aos="fade-up"
-                data-aos-duration="1000" 
-                data-aos-easing="ease-in-out">
-                KAUÊ ROSA
-            </nome>
-            <br>
-            <aos1   
-                data-aos-delay="1000" 
-                data-aos="fade-up"
-                data-aos-duration="1000" 
-                data-aos-easing="ease-in-out">I'm a web developer
-            </aos1>
-        </div>
-        
-        <div class="cartao">
-        </div>
-        <div class="cartao-dev"></div>
-     </div>
-     
-     <hr>
+        <div class="tipo">
+            <div class="apresentacao" id="casa">
+                <br><br>
+                <aos data-aos-delay="500" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    hello world, my name is
+                </aos>
+                <br>
+                <nome class="nome" data-aos-delay="1500" data-aos="fade-up" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
+                    KAUÊ ROSA
+                </nome>
+                <br>
+                <aos1 data-aos-delay="1000" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    I'm a web developer
+                </aos1>
+            </div>
 
-    <div class="containerAbout" id="sobre">
-        <p><p class="titulos">ABOUT ME</p>I'm Kauê Rosa and I'm a developer in progress. I'm taking a course at Senai and also studying and gaining knowledge on my own. I'm really enjoying entering the world of programming and I'm very interested in learning more and more. I have skills in front-end and UI/UX and I really like design. My hobbies include jiu-jitsu, games, and soccer.</p>
-        <div class="botoes">
-        <button class="habilidades">SKILLS</button>
-        <button class="estudos">STUDIES</button>
-    </div>
-        <!-- <img src="html5-logo.webp" alt="html logo">
-        <img src="css-logo.webp" alt="css logo">
-        <img src="js-logo.webp" alt="java script logo"> -->
-     </div>
+            <div class="cartao">
+            </div>
+            <div class="cartao-dev"></div>
+        </div>
 
-     <!-- <footer>git, insta e zap com css</footer> -->
-     
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+        <hr>
+
+        <div class="containerAbout" id="sobre">
+            <p class="titulos">ABOUT ME</p>
+            <ul>
+                <li>Web developer in development</li>
+                <li>Front-end developer specializing in other areas</li>
+                <li>design and UI-UX skills</li>
+                <li>great with leadership and teamwork</li>
+                <li>taking a course at SENAI and studying abroad</li>
+            </ul>
+            <div class="botoes">
+                <button class="habilidades" id="abreHabilidades">SKILLS</button> <button class="estudos" id="abreEstudos">STUDIES</button>
+                
+                <div class="habilidades-container" id="habilidadesContainer">
+                    <ul class="habilidades-lista">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                    </ul>
+                </div>
+
+                
+            </div>
+        </div>
+
+        <!-- <footer>git, insta e zap com css</footer> -->
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script src="script.js"></script>
 </body>
+
 </html>
