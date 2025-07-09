@@ -5,7 +5,7 @@
 .cabeca{
     background-color: #171825;
     display: flex;
-    height: 80px;/*altura*/
+    height: 80px;
     box-shadow: 0 3px 15px 3px;
     justify-content: space-between;
 }
@@ -112,7 +112,7 @@ body{
 .container-pai{
     display: flex;
     flex-direction: column;
-    gap: 40px; /* Espaço de 40px entre os filhos */
+    gap: 40px; 
 }
 
 .tipo{
@@ -122,7 +122,7 @@ body{
     justify-content: center;
 }
 
-.apresentacao{ /*tem um container atras*/
+.apresentacao{ 
     background:transparent;
     width: 50%;
     height: 300px;
@@ -152,7 +152,7 @@ body{
     background-repeat: no-repeat;
     background-size: 300px;
     background-position: center center;
-    transition:  /*chegada2*/ 1.5s ease, /*chegada1*/ 1.5s ease;
+    transition:  1.5s ease, 1.5s ease;
     overflow: hidden;
     position: relative;
     display: flex;
@@ -191,7 +191,7 @@ hr{
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     transition: 0.5s;
-    
+    height: 1000px;
 }
 
 .containerAbout:hover{
@@ -229,7 +229,20 @@ li{
     margin-top: 30px;
     margin-left: 40px;
     cursor: pointer;
-}           
+} 
+
+button.ativo {
+    background-color: #ffffff;
+    color: #171825;
+    border: 4px solid #171825;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 40px;
+    cursor: pointer;
+}
 
 .habilidades-container{
     background-color: #000000;/*cor temporaria*/
@@ -239,11 +252,38 @@ li{
     font-family: "Montserrat", sans-serif;
     margin: 30px;
     padding: 20px;
+    height: 500px;
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
 }
 
-.habildades-lista{
-    display: flex;
-    flex-direction: column;
+.estudos-container{
+    background-color: #000000;/*cor temporaria*/
+    color: #ffffff;
+    border-radius: 40px;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    margin: 30px;
+    padding: 20px;
+    height: 500px;
+    display: none;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+.container-html , .container-css , .container-js , .container-py{
+    background-color: #f72828;
+    color: #ffffff;
+    border-radius: 10px;
+    height: 100px;
+    width: 270px;
+}
+
+.container-html:hover , .container-css:hover , .container-js:hover , .container-py:hover{
+    background-color: #ffffff;
+    color: #171825;
+    transition: 0.5s;
 }
 
 /* footer{
