@@ -2,6 +2,12 @@
 
 /*CABEÇA*/
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .cabeca{
     background-color: #171825;
     display: flex;
@@ -106,7 +112,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: linear-gradient(135deg, #171825 ,#1a1b1a);
+    background: linear-gradient(135deg, #171825 ,#1a1b1a ,#171825);
 }
 
 .container-pai{
@@ -123,7 +129,7 @@ body{
 }
 
 .apresentacao{ 
-    background:transparent;
+    background: transparent;
     width: 50%;
     height: 300px;
     margin: 20px;
@@ -190,13 +196,7 @@ hr{
     color: white;
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
-    transition: 0.5s;
     height: 1000px;
-}
-
-.containerAbout:hover{
-    transition: 0.5s;
-    transform: scale(1.02);
 }
 
 .titulos{
@@ -245,7 +245,7 @@ button.ativo {
 }
 
 .habilidades-container{
-    background-color: transparent;/*cor temporaria*/
+    background-color: #ff0000;/*cor temporaria*/
     color: #ffffff;
     border-radius: 40px;
     font-size: 24px;
@@ -272,7 +272,7 @@ button.ativo {
     justify-content: space-around;
 }
 
-.container-html , .container-css , .container-js , .container-py{
+.container-site{
     background-color: transparent;
     color: #ffffff;
     border-radius: 10px;
@@ -287,17 +287,43 @@ button.ativo {
 .imgHTML{
     width: 50px;
     height: 50px;
-    margin-left: 15px;
+    margin-left: 17px;
 }
 
 .imgCSS{
     width: 58px;
     height: 58px;
-    margin-left: 15px;
+    margin-left: 14px;
 }
 
 .imgJS{
-    width: 9px;
+    width: 68px;
+    height: 68px;
+    margin-left: 10px;
+}
+
+.imgPY{
+    width: 60px;
+    height: 60px;
+    margin-left: 15px;
+}
+
+.imgFIGMA{
+    width: 40px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.imgCANVA{
+    width: 50px;
+    height: 50px;
+    margin-left: 17px;
+}
+
+.imgGITHUB{
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
 }
 
 /* footer{
