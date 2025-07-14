@@ -139,6 +139,23 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 
+/*tentar fazer a animação*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FIM ANIMAÇÃO */
+
 .nome{
     color: #ffffff;
     font-size: 75px;
@@ -332,7 +349,6 @@ li{
     width: 270px;
     display: flex;
     align-items: center;
-
 }
 
 .container-dropdown {
@@ -343,11 +359,17 @@ li{
     background-color: aqua;
     padding: 10px;
     min-width: 150px;
-    z-index: 1000;
+    z-index: 10;
+    width: 100px;
+    height: 100px;
 }
 
 .p-drop{
     display: none;
+    background-color: #ffffff;
+    left: 0;
+    width: 100px;
+    height: 100px;
 }
 
 .container-site:hover , .container-dropdown {
