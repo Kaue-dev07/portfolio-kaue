@@ -1,105 +1,546 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap);
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio kauê rosa</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
-</head>
+/*CABEÇA*/
 
-<body>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    <header class="cabeca">
-        <h1 class="logo">KAMU</h1>
+.cabeca{
+    background-color: #171825;
+    display: flex;
+    height: 80px;
+    box-shadow: 0 3px 15px 3px;
+    justify-content: space-between;
+}
 
-        <nav>
-            <a href="#casa">HOME</a>
-            <a href="#sobre">ABOUT</a>
-            <a href="#projetos" class="bosta">PROJECTS</a>
-            <a href="#contato" class="bosta">CONTACT</a>
-            <div class="animation start-home"></div>
-        </nav>
-    </header>
+nav{
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 17px;
+    margin-right: 40px;
+}
 
-    <div class="container-pai">
-        <div class="tipo">
-            <div class="apresentacao" id="casa">
-                <br><br>
-                <aos data-aos-delay="500" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                    hello world, my name is
-                </aos>
-                <br>
-                <nome class="nome" data-aos-delay="1500" data-aos="fade-up" data-aos-duration="1000"
-                    data-aos-easing="ease-in-out">
-                    KAUÊ ROSA
-                </nome>
-                <br>
-                <aos1 data-aos-delay="1000" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                    <div class="card">
-                        <div class="loader">
-                          <p>I'm a</p>
-                          <div class="words">
-                            <span class="word">web developer</span>
-                            <span class="word">kkkk</span>
-                            <span class="word">kkkkk</span>
-                            <span class="word">kkkkkkk</span>
-                            <span class="word">kkkkkkkkk</span>
-                          </div>
-                        </div>
-                      </div>
-                </aos1>
-            </div>
+a{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
 
-            <div class="cartao">
-            </div>
-            <div class="cartao-dev"></div>
-        </div>
+.bosta {
+   margin: 20px;
+}
 
-        <hr>
+.animation{
+    position: absolute;
+    height: 3px;
+    top: 60px;
+    margin-left: 950px;
+    z-index: 0;
+    background-color: #f7f7f7;
+    transition: all 0.5s ease 0s;
+}
 
-        <div class="containerAbout" id="sobre">
-            <p class="titulos">ABOUT ME</p>
-            <ul>
-                <li>Web developer in development</li>
-                <li>Front-end developer specializing in other areas</li>
-                <li>design and UI-UX skills</li>
-                <li>great with leadership and teamwork</li>
-                <li>taking a course at SENAI and studying abroad</li>
-            </ul>
+a:nth-of-type(1){
+    width: 108px;
+}
+nav .start-home,a:nth-of-type(1):hover~.animation{
+    width: 86px;
+    left: 26px;
+}
 
-            <div class="botoes">
-                <button class="btnHabilidades" id="abreHabilidades">SKILLS</button> <button class="btnEstudos" id="abreEstudos">STUDIES</button>
-                
-                <div class="habilidades-container" id="habilidadesContainer">
-                    <div class="container-site"><img src="html5-logo.webp" alt="HTML5 logo" class="imgHTML"><p class="p2">HTML 5</p>
-                        <div class="container-dropdown"><p class="p-drop">teste aqui</p></div>
-                    </div>
-                    <div class="container-site"><img src="css-logo.webp" alt="CSS3 logo" class="imgCSS"><p class="p2">CSS 3</p></div>
-                    <div class="container-site"><img src="js-logo.webp" alt="JavaScript logo" class="imgJS"><p class="p3">&nbsp;&nbsp;&nbsp;JavaScript</p></div>
-                    <div class="container-site"><img src="py-logo.webp" alt="Python logo" class="imgPY"><p class="p2">Python</p></div>
-                    <div class="container-site"><img src="Figma-logo.png" alt="Figma logo" class="imgFIGMA"><p class="p4">Figma</p></div>
-                    <div class="container-site"><img src="canva-logo.webp" alt="imgCANVA" class="imgCANVA"><p class="p2">Canva</p></div>
-                    <div class="container-site"><img src="github-logo.png" alt="Git Hub logo" class="imgGITHUB"><p class="p2">GitHub</p></div>
-                    <div class="container-site"><img src="bootstrap-logo.png" alt="bootstrap logo" class="imgBOOTSTRAP"><p class="p3">&nbsp;&nbsp;&nbsp;Bootstrap</p></div>
-                </div>
-                
+a:nth-of-type(2){
+    width: 100px;
+}
+nav .start-about,a:nth-of-type(2):hover~.animation{
+    width: 95px;
+    left: 134px;
+}
 
-                <div class="estudos-container" id="estudosContainer">
-                    <div class="container-site"></div>
-                </div>
-            </div>
-        </div>
 
-        <!-- <footer>git, insta e zap com css</footer> -->
+a:nth-of-type(3){
+    width: 100px;
+}
+nav .start-projects,a:nth-of-type(3):hover~.animation{
+    width: 120px;
+    left: 257px;
+}
 
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
-        <script src="script.js"></script>
-</body>
-</html>
+
+a:nth-of-type(4){
+    width: 100px;
+}
+nav .start-contact,a:nth-of-type(4):hover~.animation{
+    width: 108px;
+    left: 399px;
+}
+
+a:hover{
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #ffffff; 
+}
+
+
+.logo{
+    background: url(nuvens-brancas.png)center;
+    background-size: cover;
+    background-clip: text;
+    display: flex;
+    align-items: center;
+    color: transparent;
+    font-size: 40px;
+    margin-left: 60px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    animation: animacao 11s linear infinite;
+}
+
+@keyframes animacao {
+    to {
+        background-position-x: -500px;
+    }
+}
+
+/*FIM CABEÇA*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(135deg, #171825 ,#1a1b1a ,#171825);
+}
+
+.container-pai{
+    display: flex;
+    flex-direction: column;
+    gap: 40px; 
+}
+
+.tipo{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apresentacao{ 
+    background: transparent;
+    width: 50%;
+    height: 300px;
+    margin: 20px;
+    margin-top: 90px;
+    color: white;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*tentar fazer a animação*/
+
+.card-anima{
+    background-color: transparent;
+    padding: 1rem 2rem;
+}
+
+.cards-anima{
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: content-box;
+    height: 40px;
+    padding: 10px 10px;
+    display: flex;
+}
+
+.eu-sou {
+    overflow: hidden;
+    position: relative;
+}
+
+.eu-sou::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 100;
+    background: linear-gradient(#1a1b1a 10% , transparent 30% , transparent 70% , #1a1b1a 90%);
+}
+
+.sou{
+    color: blueviolet;
+    display: block;
+    height: 100%;
+    padding-left: 6px;
+    animation: animacao-sou 9s infinite;
+}
+
+@keyframes animacao-sou {
+      10% {
+    -webkit-transform: translateY(-102%);
+    transform: translateY(-102%);
+  }
+
+  25% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+
+  35% {
+    -webkit-transform: translateY(-202%);
+    transform: translateY(-202%);
+  }
+
+  50% {
+    -webkit-transform: translateY(-200%);
+    transform: translateY(-200%);
+  }
+
+  60% {
+    -webkit-transform: translateY(-302%);
+    transform: translateY(-302%);
+  }
+
+  75% {
+    -webkit-transform: translateY(-300%);
+    transform: translateY(-300%);
+  }
+
+  85% {
+    -webkit-transform: translateY(-402%);
+    transform: translateY(-402%);
+  }
+
+  100% {
+    -webkit-transform: translateY(-400%);
+    transform: translateY(-400%);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FIM ANIMAÇÃO */
+
+.nome{
+    color: #ffffff;
+    font-size: 75px;
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+}
+
+.cartao{
+    background-color: #ffffff;
+    box-shadow: #000000 0px 0px 20px 0px;
+    width: 300px;
+    height: 379px;
+    margin: 20px;
+    margin-top: 90px;
+    border-radius: 20px;
+    background-image: url(foto-kaue2.JPG);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center center;
+    transition:  1.5s ease, 1.5s ease;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartao:hover {
+    background-image: url(foto-kaue2.JPG) left center no-repeat;
+    background-size: 600px;
+    background-position: left 1% center;
+    box-shadow: #797979 0px 0px 20px 0px;
+}
+
+hr{
+    height: 2px;
+    background-color: #ffffff;
+    border: none;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.containerAbout{
+    display: flex;
+    flex-direction: column;
+    background-color: #171825;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 40px;
+    border-radius: 40px;
+    box-shadow: #000000 0px 0px 20px 0px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    height: 1000px;
+}
+
+.titulos{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+ul{
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 40px;
+}
+
+li{
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.btnHabilidades {
+    margin-left: 40px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.btnEstudos{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.btnHabilidades , .btnEstudos{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 10px;
+    font-size: 16px;
+    font-weight: 700;
+    border: 3px solid #ffffff;
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+    text-decoration: none;
+    overflow: hidden;
+    z-index: 1;
+    font-family: inherit;
+    color: #ffffff;
+} 
+
+.btnHabilidades::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    transform: translateX(-100%);
+    transition: all .3s;
+    z-index: -1;
+}
+
+.btnEstudos::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    transform: translate(100%);
+    transition: all .3s;
+    z-index: -1;
+}
+
+.btnHabilidades:hover::before , .btnEstudos:hover::before {
+    transform: translateX(0);
+}
+
+.btnHabilidades:hover {
+    color: #171825;
+    transition: 0.5s;
+}
+
+.btnEstudos:hover {
+    color: #171825;
+    transition: 0.5s;
+}
+
+.btnHabilidades.selecionado, .btnEstudos.selecionado {
+    background-color: #ffffff;
+    color: #171825;    
+}
+
+
+.habilidades-container{
+    background-color: transparent;/*cor temporaria*/
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    padding: 20px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px; 
+    position: relative;
+}
+
+.estudos-container{
+    background-color: transparent;/*cor temporaria*/
+    color: #ffffff;
+    border-radius: 40px;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    margin: 30px;
+    padding: 20px;
+    height: 100px;
+    display: none;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+.container-site{
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 10px;
+    border: #ffffff 1px solid;
+    height: 80px;
+    width: 270px;
+    display: flex;
+    align-items: center;
+}
+
+.container-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: aqua;
+    padding: 10px;
+    min-width: 150px;
+    z-index: 10;
+    width: 100px;
+    height: 100px;
+}
+
+.p-drop{
+    display: none;
+    background-color: #ffffff;
+    left: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.container-site:hover , .container-dropdown {
+    display: block;
+}
+
+.imgHTML{
+    width: 50px;
+    height: 50px;
+    margin-left: 17px;
+}
+
+.imgCSS{
+    width: 58px;
+    height: 58px;
+    margin-left: 14px;
+}
+
+.imgJS{
+    width: 68px;
+    height: 68px;
+    margin-left: 10px;
+}
+
+.imgPY{
+    width: 60px;
+    height: 60px;
+    margin-left: 15px;
+}
+
+.imgFIGMA{
+    width: 34px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.imgCANVA{
+    width: 53px;
+    height: 53px;
+    margin-left: 17px;
+}
+
+.imgGITHUB{
+    width: 57px;
+    height: 57px;
+    margin-left: 17px;
+}
+
+.imgBOOTSTRAP{
+    width: 60px;
+    height: 50px;
+    margin-left: 15px;
+}
+
+.p2{
+    margin-left: 30px; 
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.p4{
+    margin-left: 40px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.p3{
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* footer{
+    background-color: #000000;
+    align-items: center;
+    justify-content: center;
+    color: #f0f8ff;
+    font-size: 24px;
+    font-weight: bold;
+    height: 100px;
+    animation-name: animacao1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animacao1{
+    0% {background-color: #000000;}
+    25% {background-color: #232423;}
+    50% {background-color: #2e312e;}
+    75% {background-color: #1a1b1a;}
+    100% {background-color: #000000;}
+} */
