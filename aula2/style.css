@@ -141,6 +141,83 @@ body{
 
 /*tentar fazer a animação*/
 
+.card-anima{
+    background-color: transparent;
+    padding: 1rem 2rem;
+}
+
+.cards-anima{
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: content-box;
+    height: 40px;
+    padding: 10px 10px;
+    display: flex;
+}
+
+.eu-sou {
+    overflow: hidden;
+    position: relative;
+}
+
+.eu-sou::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 100;
+    background: linear-gradient(#1a1b1a 10% , transparent 30% , transparent 70% , #1a1b1a 90%);
+}
+
+.sou{
+    color: blueviolet;
+    display: block;
+    height: 100%;
+    padding-left: 6px;
+    animation: animacao-sou 9s infinite;
+}
+
+@keyframes animacao-sou {
+      10% {
+    -webkit-transform: translateY(-102%);
+    transform: translateY(-102%);
+  }
+
+  25% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+
+  35% {
+    -webkit-transform: translateY(-202%);
+    transform: translateY(-202%);
+  }
+
+  50% {
+    -webkit-transform: translateY(-200%);
+    transform: translateY(-200%);
+  }
+
+  60% {
+    -webkit-transform: translateY(-302%);
+    transform: translateY(-302%);
+  }
+
+  75% {
+    -webkit-transform: translateY(-300%);
+    transform: translateY(-300%);
+  }
+
+  85% {
+    -webkit-transform: translateY(-402%);
+    transform: translateY(-402%);
+  }
+
+  100% {
+    -webkit-transform: translateY(-400%);
+    transform: translateY(-400%);
+  }
+}
 
 
 
