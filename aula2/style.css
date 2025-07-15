@@ -143,7 +143,7 @@ body{
 
 .card-anima{
     background-color: transparent;
-    padding: 1rem 2rem;
+    margin-right: 300px;
 }
 
 .cards-anima{
@@ -166,11 +166,10 @@ body{
     position: absolute;
     inset: 0;
     z-index: 100;
-    background: linear-gradient(#1a1b1a 10% , transparent 30% , transparent 70% , #1a1b1a 90%);
 }
 
 .sou{
-    color: blueviolet;
+    color: white;
     display: block;
     height: 100%;
     padding-left: 6px;
@@ -218,18 +217,6 @@ body{
     transform: translateY(-400%);
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* FIM ANIMAÇÃO */
 
