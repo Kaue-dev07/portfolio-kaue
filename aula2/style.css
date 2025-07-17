@@ -84,7 +84,6 @@ a:hover{
     text-shadow: 1px 1px 1px #ffffff; 
 }
 
-
 .logo{
     background: url(nuvens-brancas.png)center;
     background-size: cover;
@@ -413,31 +412,6 @@ li{
     width: 270px;
     display: flex;
     align-items: center;
-}
-
-.container-dropdown {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: aqua;
-    padding: 10px;
-    min-width: 150px;
-    z-index: 10;
-    width: 100px;
-    height: 100px;
-}
-
-.p-drop{
-    display: none;
-    background-color: #ffffff;
-    left: 0;
-    width: 100px;
-    height: 100px;
-}
-
-.container-site:hover , .container-dropdown {
-    display: block;
 }
 
 .imgHTML{
