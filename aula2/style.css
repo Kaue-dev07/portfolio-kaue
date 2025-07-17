@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap);
 
-/*CABEÇA*/
+/*cabeça*/
 
 *{
     margin: 0;
@@ -105,7 +105,7 @@ a:hover{
     }
 }
 
-/*FIM CABEÇA*/
+/*fim cabeca*/
 
 body{
     margin: 0;
@@ -217,7 +217,7 @@ body{
   }
 }
 
-/* FIM ANIMAÇÃO */
+/* fim animação */
 
 .nome{
     color: #ffffff;
@@ -255,7 +255,7 @@ body{
 
 hr{
     height: 2px;
-    background-color: #ffffff;
+    background-color: #ffffff7c;
     border: none;
     margin-left: 60px;
     margin-right: 60px;
@@ -483,6 +483,56 @@ li{
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     font-size: 20px;
+}
+
+.hr2{
+    height: 2px;
+    background-color: #ffffff7c;
+    border: none;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.titulos2{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projetos-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    padding: 40px;
+    background-color: #818181;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    height: 1500px;
+}
+
+.projetos{
+    background-color: red;
+    background-image: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 400px;
+    border: 1px solid #ffffff;
+    margin-left: 152px;
+    margin-right: 40px;
+}
+
+.projetos img{
+    width: 100%;
 }
 
 /* footer{
