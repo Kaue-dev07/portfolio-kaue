@@ -409,88 +409,78 @@ li{
     height: 300px;
     width: 270px;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    transition: 0.5s;
+}
+
+.container-site:hover{
+    background-color: #ffffff;
+    color: #171825;
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+.container-site p{
+    padding: 20px;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
 }
 
 .imgHTML{
     width: 50px;
     height: 50px;
-    margin-left: 17px;
+    margin-top: 20px;
 }
 
 .imgCSS{
     width: 58px;
     height: 58px;
-    margin-left: 14px;
+    margin-top: 17px;
 }
 
 .imgJS{
     width: 68px;
     height: 68px;
-    margin-left: 10px;
+    margin-top: 12px;
 }
 
 .imgPY{
     width: 60px;
     height: 60px;
-    margin-left: 15px;
+    margin-top: 20px;
 }
 
 .imgFIGMA{
     width: 34px;
     height: 50px;
-    margin-left: 20px;
+    margin-top: 21px;
 }
 
-.imgCANVA{
-    width: 53px;
-    height: 53px;
-    margin-left: 17px;
+.imgREACT{
+    width: 56px;
+    height: 56px;
+    margin-top: 18px;
 }
 
 .imgGITHUB{
     width: 57px;
     height: 57px;
-    margin-left: 17px;
+    margin-top: 17px;
 }
 
 .imgBOOTSTRAP{
     width: 60px;
     height: 50px;
-    margin-left: 15px;
-}
-
-.p2{
-    margin-left: 30px; 
-    color: #ffffff;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.p4{
-    margin-left: 40px;
-    color: #ffffff;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.p3{
-    color: #ffffff;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    font-size: 20px;
+    margin-top: 20px;
 }
 
 .hr2{
     height: 2px;
     background-color: #ffffff7c;
     border: none;
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin: 60px;
 }
 
 .titulos2{
