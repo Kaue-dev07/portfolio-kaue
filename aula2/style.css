@@ -505,7 +505,7 @@ li{
     background-color: transparent;
     color: white;
     font-family: "Montserrat", sans-serif;
-    height: 1500px;
+    height: 1300px;
     margin-top: 50px;
 }
 
@@ -582,7 +582,24 @@ input[type="radio"] {
     transform: translateX(-200%);
 }
 
-/* footer{
+.hr3 {
+    height: 2px;
+    background-color: #ffffff7c;
+    border: none;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 0px;
+}
+
+.container-maps {
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    margin: 40px;
+    padding: 20px;
+}
+
+footer{
     background-color: #000000;
     align-items: center;
     justify-content: center;
@@ -601,4 +618,4 @@ input[type="radio"] {
     50% {background-color: #2e312e;}
     75% {background-color: #1a1b1a;}
     100% {background-color: #000000;}
-} */
+}
