@@ -274,15 +274,17 @@ hr{
     color: white;
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
-    height: 1150px;
+    height: 1200px;
     overflow: hidden;
 }
 
 .titulos{
-    font-size: 70px;
+    font-size: 90px;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    text-decoration: underline 2px #ffffff90;
+    text-underline-offset: 30px;
 }
 
 ul{
@@ -307,7 +309,7 @@ li{
 
 .btnHabilidades , .btnEstudos{
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 50px;
     padding: 15px 10px;
     font-size: 16px;
     font-weight: 700;
@@ -320,6 +322,8 @@ li{
     z-index: 1;
     font-family: inherit;
     color: #ffffff;
+    width: 622px;
+    height: 70px;
 } 
 
 .btnHabilidades::before {
@@ -489,6 +493,8 @@ li{
     justify-content: center;
     align-items: center;
     margin-right: 20px;
+    text-decoration: underline 2px #ffffff90;
+    text-underline-offset: 30px;
 }
 
 .projetos-container{
