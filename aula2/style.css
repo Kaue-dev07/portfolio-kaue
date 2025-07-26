@@ -618,11 +618,11 @@ iframe {
     border: #ffffff 2px;
 }
 
-.container-historia {
+form {
+    background-color: red;
     background-color: #000000;
-    display: flex;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: auto;
     margin-right: 50px;
 }
 
