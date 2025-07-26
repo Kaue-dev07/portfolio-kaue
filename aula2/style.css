@@ -283,8 +283,6 @@ hr{
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
     margin-bottom: 50px;
-    text-decoration: underline 2px #ffffff90;
-    text-underline-offset: 30px;
 }
 
 ul{
@@ -592,11 +590,48 @@ input[type="radio"] {
     margin-top: 0px;
 }
 
+.titulos3 {
+    font-size: 100px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
 .container-maps {
     border-radius: 20px;
     border: 2px solid #ffffff;
-    margin: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
     padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+iframe {
+    border-radius: 10px;
+    border: #ffffff 2px;
+}
+
+.container-historia {
+    background-color: #000000;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.container-maps p {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 footer{
