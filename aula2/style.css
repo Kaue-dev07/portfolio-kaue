@@ -620,10 +620,39 @@ iframe {
 
 form {
     background-color: red;
-    background-color: #000000;
+    background-color: transparent;
     display: grid;
     grid-template-columns: auto;
     margin-right: 50px;
+}
+
+.btnENVIAR {
+    width: 130px;
+    height: 40px;
+    font-size: 1.1em;
+    cursor: pointer;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.5s;
+    margin-top: 20px;
+}
+
+.btnENVIAR:hover {
+    border-radius: 10px;
+    transform: translateY(-9px);
+    box-shadow: 0 7px 0 -2px #ffffff,
+    0 15px 0 -4px #171825,
+    0 16px 10px -3px #171825;
+}
+
+.btnENVIAR:active {
+    transition: all 0.1s;
+    transform: translateY(-4px);
+    box-shadow: 0 2px 0 -2px #ffffff,
+    0 8px 0 -4px #171825,
+    0 12px 10px -3px #171825;
 }
 
 .container-maps p {
@@ -632,6 +661,39 @@ form {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.seuN , .seuE {
+    border-radius: 15px;
+    width: 100%;
+    height: 70%;
+    padding: 10px;
+    box-shadow: #000000 0px 0px 10px 0px;
+    transition: 0.5s;
+    cursor: text;
+}
+
+.area-texto {
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-shadow: #000000 0px 0px 10px 0px;
+    transition: 0.5s;
+    cursor: text;
+    resize: none;
+}
+
+.seuN:hover ,  .seuE:hover , .area-texto:hover {
+    box-shadow: white 0px 0px 5px 0px;
+}
+
+.seuN:focus , .seuE:focus , .area-texto:focus {
+    box-shadow: white 0px 0px 10px 0px;
+    transform: scale(1.02);
+    transition: 0.5s;
 }
 
 footer{
@@ -646,6 +708,7 @@ footer{
     animation-duration: 5s;
     animation-iteration-count: infinite;
 }
+
 
 @keyframes animacao1{
     0% {background-color: #000000;}
