@@ -636,7 +636,6 @@ form {
     border: none;
     border-radius: 10px;
     transition: all 0.5s;
-    margin-top: 20px;
     box-shadow: #000000 0 0 20px 0;
 }
 
@@ -674,6 +673,8 @@ form {
     box-shadow: #000000 0px 0px 10px 0px;
     transition: 0.5s;
     cursor: text;
+    border: none;
+    outline: none;
 }
 
 .area-texto {
@@ -685,16 +686,46 @@ form {
     transition: 0.5s;
     cursor: text;
     resize: none;
+    border: none;
+    outline: none;
+}
+
+.area-texto::placeholder , .seuE::placeholder , .seuN::placeholder {
+    font-family: "Montserrat", sans-serif;
 }
 
 .seuN:hover ,  .seuE:hover , .area-texto:hover {
     box-shadow: white 0px 0px 5px 0px;
+    border: none;
+    outline: none;
 }
 
 .seuN:focus , .seuE:focus , .area-texto:focus {
     box-shadow: white 0px 0px 10px 0px;
     transform: scale(1.02);
     transition: 0.5s;
+    outline: none;
+    border: none;
+}
+
+.mini-container {
+    background-color: transparent;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mini-container p:nth-child(2) {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    margin-left: auto;
+}
+
+.mini-container a {
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
 }
 
 footer{
