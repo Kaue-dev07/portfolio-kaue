@@ -729,23 +729,32 @@ form {
 }
 
 footer{
-    background-color: #2e312e;
-    align-items: center;
-    justify-content: center;
-    color: #f0f8ff;
-    font-size: 24px;
-    font-weight: bold;
+    background-color: #2a2d2a;
     height: 300px;
-    animation-name: animacao1;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
+.container-social {
+    background-color: transparent;
+    width: 460px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
-@keyframes animacao1{
-    0% {background-color: #2e312e;}
-    25% {background-color: #2a2d2a;}
-    50% {background-color: #2e312e;}
-    75% {background-color: #2a2d2a;}
-    100% {background-color: #2e312e;}
+.container-social .social1 .social2 {
+    background-color: #191a1a;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-social .social1:hover .social2 {
+    background-color: pink;
 }
