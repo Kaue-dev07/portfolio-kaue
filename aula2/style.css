@@ -745,7 +745,7 @@ footer{
     justify-content: space-around;
 }
 
-.container-social .social1 .social2 {
+.container-social .social1 {
     background-color: #191a1a;
     width: 90px;
     height: 90px;
@@ -753,8 +753,58 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.5s;
 }
 
-.container-social .social1:hover .social2 {
-    background-color: pink;
+.container-social .social2 {
+    background-color: #191a1a;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.container-social .social3 {
+    background-color: #191a1a;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.container-social .social1:hover {
+    background-color: #0D1117;
+    transition: 0.5s;
+}
+
+.container-social .social2:hover {
+    background-color: #0A66C2;
+    transition: 0.5s;
+}
+
+.container-social .social3::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 100%;
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    opacity: 0;
+    transition: opacity 0.5s;
+    z-index: 0;
+}
+
+.container-social .social3:hover::before {
+    opacity: 1;
+}
+
+.fab {
+    z-index: 100;
 }
