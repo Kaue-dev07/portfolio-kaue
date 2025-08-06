@@ -1,8 +1,0 @@
-#171825
-
-overflow: tira tudo que está fora do container
-
-inset: atalho para os elementos do css: top, botom , left, right
-Mas só funciona se o elemento estiver com: position: absolute;
-
-
