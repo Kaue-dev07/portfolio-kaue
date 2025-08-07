@@ -2,7 +2,7 @@
 
 /*cabeça*/
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,7 +10,7 @@
     scroll-behavior: smooth;
 }
 
-.cabeca{
+.cabeca {
     background-color: #171825;
     display: flex;
     height: 80px;
@@ -20,30 +20,50 @@
     padding-right: 60px;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-weight: 800;
     font-size: 17px;
-    background-color: red;
-    width: 400px;
+    background-color: transparent;
+    width: 450px;
+    padding: 1rem;
+    left: 50%;
+    top: 2rem;
+
+    a {
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+        transition: 0.5s;
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -5px;
+            width: 100%;
+            height: 2px;
+            background: white;
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.3s;
+        }
+
+        &:hover {
+            text-shadow: white 0px 0px 5px;
+        }
+
+        &:hover::after {
+            transform: scaleX(1);
+        }
+    }
 }
 
-a{
-    font-family: "Montserrat", sans-serif;
-    color: white;
-    text-decoration: none;
-    transition: 0.5s;
-}
-
-a:hover{
-    color: #ffffff;
-    text-shadow: 1px 1px 1px #ffffff; 
-    cursor: pointer;
-}
-
-.logo{
+.logo {
     background: url(img/nuvens-brancas.png)center;
     background-size: cover;
     background-clip: text;
@@ -777,7 +797,6 @@ footer{
     overflow: hidden;
     position: relative;
 }
-
 
 .container-social .social1:hover {
     background-color: #0D1117;
