@@ -12,7 +12,7 @@ Por enquanto estou estudando mais sobre **Front-end**, mas quero estudar sobre o
 ---
 
 ## 💻 Demonstração
- **Acesse meu portfólio online:** *(link do GitHub Pages será adicionado aqui)*
+ **Acesse meu portfólio online:**
 
 ---
 
