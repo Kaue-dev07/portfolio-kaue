@@ -1,6 +1,6 @@
 #  Portfólio — Kauê Rosa
 
-![Banner ou Animação](COLOQUE_O_LINK_DO_SEU_GIF_AQUI)
+![Banner ou Animação]((https://giphy.com/gifs/elden-ring-boss-fight-3o6Zt7b8k5z5W0UuV6))
 
 Bem-vindo ao meu portfólio!!! 🤩  
 Eu fiz esse projeto para mostrar um pouco sobre mim, habilidades e meus contatos.
