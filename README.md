@@ -1,8 +1,5 @@
 #  Portfólio — Kauê Rosa
 
-<!-- GIF Elden Ring Árvore -->
-![Elden Ring Tree](https://media.tenor.com/lSvN-0qM87sAAAAd/elden-ring-elden-ring-tree.gif)
-
 Bem-vindo ao meu portfólio!!! 🤩  
 Eu fiz esse projeto para mostrar um pouco sobre mim, habilidades e meus contatos.
 
