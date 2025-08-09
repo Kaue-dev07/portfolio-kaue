@@ -1,6 +1,7 @@
 #  Portfólio — Kauê Rosa
 
-![Elden Ring Boss Fight]([https://media.giphy.com/media/3o6Zt7b8k5z5W0UuV6/giphy.gif](https://media.tenor.com/0hwMGs6-3IEAAAAd/elden-ring-tree.gif))
+<!-- GIF Elden Ring Árvore -->
+![Elden Ring Tree](https://media.tenor.com/0hwMGs6-3IEAAAAd/elden-ring-tree.gif)
 
 Bem-vindo ao meu portfólio!!! 🤩  
 Eu fiz esse projeto para mostrar um pouco sobre mim, habilidades e meus contatos.
@@ -22,4 +23,9 @@ Por enquanto estou estudando mais sobre **Front-end**, mas quero estudar sobre o
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-bad)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+---
+
+## 📬 Contato  
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-bad)]()
