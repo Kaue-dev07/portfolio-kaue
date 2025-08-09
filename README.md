@@ -1,6 +1,6 @@
 #  Portfólio — Kauê Rosa
 
-![Elden Ring Boss Fight](https://media.giphy.com/media/3o6Zt7b8k5z5W0UuV6/giphy.gif)
+![Elden Ring Boss Fight]([https://media.giphy.com/media/3o6Zt7b8k5z5W0UuV6/giphy.gif](https://media.tenor.com/0hwMGs6-3IEAAAAd/elden-ring-tree.gif))
 
 Bem-vindo ao meu portfólio!!! 🤩  
 Eu fiz esse projeto para mostrar um pouco sobre mim, habilidades e meus contatos.
