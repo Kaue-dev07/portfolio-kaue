@@ -1,6 +1,6 @@
 #  Portfólio — Kauê Rosa
 
-![Banner ou Animação]((https://giphy.com/gifs/elden-ring-boss-fight-3o6Zt7b8k5z5W0UuV6))
+![Elden Ring Boss Fight](https://media.giphy.com/media/3o6Zt7b8k5z5W0UuV6/giphy.gif)
 
 Bem-vindo ao meu portfólio!!! 🤩  
 Eu fiz esse projeto para mostrar um pouco sobre mim, habilidades e meus contatos.
@@ -22,15 +22,4 @@ Por enquanto estou estudando mais sobre **Front-end**, mas quero estudar sobre o
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
----
-
-## 📬 Contato  
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kaue-dev07)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kau%C3%AA-rosa-273843373/)  
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/kaue_.r)  
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Kaue.dev07@gmail.com)
-
----
-
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-bad)
