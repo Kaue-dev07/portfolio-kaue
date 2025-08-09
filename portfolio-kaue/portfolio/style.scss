@@ -8,6 +8,7 @@
     box-sizing: border-box;
     cursor: default;
     scroll-behavior: smooth;
+    font-family: "Montserrat", sans-serif;
 }
 
 .cabeca {
@@ -86,6 +87,7 @@ body{
     padding: 0;
     font-family: sans-serif;
     background: linear-gradient(135deg, #171825 ,#1a1b1a, #171825 , #1a1b1a ,#171825);
+    font-family: "Montserrat", sans-serif;
 }
 
 .container-pai{
@@ -502,22 +504,21 @@ li{
 }
 
 .titulos2{
-    font-size: 80px;
+    font-size: 70px;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
     color: #ffffff;
     display: flex;
     align-items: center;
-    justify-content: center;
     margin-bottom: 50px;
-    margin-right: 30px;
+    margin-left: 170px;
 }
 
 .projetos-container{
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    padding: 40px;
+    justify-content: center;
+    column-gap: 300px;
     background-color: transparent;
     color: white;
     font-family: "Montserrat", sans-serif;
@@ -526,29 +527,73 @@ li{
 
 .projetos{
     background-color: transparent;
-    background-image: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    display: grid;
+    display: flex;
     align-items: center;
     justify-content: center;
-    height: 500px;
-    width: 400px;
-    margin-left: 152px;
-    margin-right: 40px;
+    flex-direction: column;
+    height: 550px;
+    width: 450px;
 }
 
-.projetos p {
-    color: #f6e9e9;
-    font-size: 30px;
+.projetos-descricao {
+    background-color: transparent;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+
+    p {
+        color: #f6e9e9;
+        font-size: 32px;
+        font-weight: bold;
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+    }
+
+    .p2 {
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        font-weight: normal;
+        font-size: 18px;
+    }
+}
+
+.btn-ver-projeto{
+    font-family: "Montserrat", sans-serif;
+    color: white;
     font-weight: bold;
-    font-family: "Montserrat", sans-serif;
-    text-align: center;
-}
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #171717;
+    width: 40%;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s;
 
-.projetos p2{
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
+    &:hover {
+        background-color: #111111;
+        transition: 0.5s;
+    }
+
+    &:active {
+        .fa-solid {
+            transform: translate(30px, -30px);
+            transition: transform 0.1s;
+        }
+    }
+
+    .fa-solid {
+        margin-left: 8px;
+        cursor: pointer;
+        transition: transform 1s;
+    }
 }
 
 .carrosel {
@@ -558,7 +603,6 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
     overflow: hidden;
     border-radius: 10px;
 }
@@ -608,13 +652,13 @@ input[type="radio"] {
 }
 
 .titulos3 {
-    font-size: 60px;
+    font-size: 70px;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
     color: #ffffff;
     display: flex;
     align-items: center;
-    margin-left: 90px;
+    margin-left: 140px;
 }
 
 .container-maps {
