@@ -248,8 +248,57 @@ hr{
     color: white;
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
-    height: 820px;
+    height: 1028px;
     overflow: hidden;
+}
+
+.sobre-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.foto-container {
+    overflow: hidden;
+    width: 300px;
+    height: 350px;
+    background-color: #ffffff;
+    border-radius: 40px 0px 40px 0px;
+    box-shadow: #000000 0px 0px 20px 0px;
+    animation-name: animacao01;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition: 0.5s;
+
+
+    &:hover {
+        box-shadow: #797979 0px 0px 20px 0px;
+        transition: 0.5s;
+        transform: scale(1.05);
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+    }
+}
+
+
+@keyframes animacao01 {
+    0% {background-color: #171825;}
+    25% {background-color: #1a1b1a;}
+    50%{background-color: #2a2d2a;}
+    75% {background-color: #1a1b1a;}
+    100% {background-color: #171825;}
+
+    0% {border-radius: 40px 0px 40px 0px;}
+    50% {border-radius: 0px 40px 0px 40px;}
+    100% {border-radius: 40px 0px 40px 0px;}
 }
 
 .titulos{
