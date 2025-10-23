@@ -522,6 +522,16 @@ li {
   transform: translateX(60px) scale(1.5);
 }
 
+.container-site10:hover {
+  background-color: #F05033;
+  color: transparent;
+  transition: 0.5s;
+  transform: scale(1.05);
+}
+.container-site10:hover .fa-brands {
+  transform: translateX(51px) scale(1.4);
+}
+
 .hr2 {
   height: 2px;
   background-color: rgba(255, 255, 255, 0.4862745098);

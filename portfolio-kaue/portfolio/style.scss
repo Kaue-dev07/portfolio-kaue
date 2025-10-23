@@ -553,6 +553,18 @@ li{
     }
 }
 
+.container-site10:hover {
+    background-color: #F05033;
+    color: transparent;
+    transition: 0.5s;
+    transform: scale(1.05);
+
+    .fa-brands {
+      transform: translateX(51px) scale(1.4);
+    }
+}
+
+
 .hr2{
     height: 2px;
     background-color: #ffffff7c;
